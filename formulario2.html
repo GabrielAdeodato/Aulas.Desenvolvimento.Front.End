@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="mailto:emailaleatório@qualquercoisa.com">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome"><br>
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco"><br>
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade"><br>
+          <label for="estado">Estado:</label>
+          <select id="estado" name="estado">
+            <option value="" disabled selected>--</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <label for="cargo">Natureza do cargo:</label><br>
+            <label for="gerencia"><input type="radio" id="gerencia" name="cargo" value="Gerencia"> Gerência</label>
+            <label for="financeiro"><input type="radio" id="financeiro" name="cargo" value="Financeiro"> Financeiro</label>
+            <label for="recepcao"><input type="radio" id="recepcao" name="cargo" value="Recepção"> Recepção</label>
+            <label for="administrativo"><input type="radio" id="administrativo" name="cargo" value="Administrativo"> Administrativo</label>
+            <label for="juridico"><input type="radio" id="juridico" name="cargo" value="Jurídico"> Jurídico</label><br><br>
+          
+            <label for="area">Área de interesse:</label><br>
+            <label for="computacao"><input type="checkbox" id="computacao" name="area" value="Computação"> Computação</label>
+            <label for="biologia"><input type="checkbox" id="biologia" name="area" value="Biologia"> Biologia</label>
+            <label for="meio-ambiente"><input type="checkbox" id="meio-ambiente" name="area" value="Meio Ambiente"> Meio Ambiente</label>
+            <label for="engenharia"><input type="checkbox" id="engenharia" name="area" value="Engenharia"> Engenharia</label>
+            <label for="historia"><input type="checkbox" id="historia" name="area" value="História"> História</label><br><br>
+          
+            <label for="curriculo">Mini currículo:</label>
+            <textarea id="curriculo" name="curriculo" rows="5" cols="40"></textarea><br>
+          </fieldset>
+        </form>
+    
+</body>
+</html>
